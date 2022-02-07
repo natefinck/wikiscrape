@@ -22,7 +22,7 @@ img {
 }
 
 #subjectName {
-    font-size: 1.4rem;
+    font-size: 2.5rem !important;
 }
 
 #subjectName h1 {
@@ -46,7 +46,12 @@ img {
     line-height: 1.6;
 }
 
-.cityTableContainer table {
+#cityTableContainer {
+    float: right;
+    clear: right;
+}
+
+#cityTableContainer table {
     font-family: 'Noto Serif', serif;
     width: 20rem;
     border-collapse: collapse; 
@@ -65,22 +70,16 @@ img {
     background-color: ;
 }
 
-.cityTableContainer td {
+#cityTableContainer td {
     text-align: center;
 }
 
 .sideImageContainer {
-    width: 15rem;
-    border: 1px solid black;
+    width: 40%;
+    padding: 1.3rem 0 1.3rem 0.5rem;
     text-align: center;
-    background-color: #dddddd;
-    padding: .3rem;
-    margin-top: .9rem;
+    /* margin-top: .9rem; */
     clear: right;
-    float: right;
-}
-
-#imagesSideContainer {
     float: right;
 }
 
@@ -89,7 +88,7 @@ img {
 }
 
 #notablePeopleImageContainer {
-    margin: 0;
+    width: 25%;
 }
 
 .subheader {
@@ -110,4 +109,13 @@ img {
 
 a {
     text-decoration: none;
+}
+
+/* #aerialImage {
+    width: 40%;
+    padding-left: 0.5rem;
+} */
+
+#aerialImage img{
+    width: 100%;
 }
